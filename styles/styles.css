@@ -1,0 +1,39 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header h1{
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+header{
+  background-color: #cf2317;
+  color: white;
+  padding: 10px;
+}
+img{
+  width: 500px;
+}
+.reviews img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+
+}
+.review_container{
+  display: flex;
+  align-items: center;
+  border: solid, grey;
+  padding:3px;
+  margin: 10px;
+}
+
+
+
